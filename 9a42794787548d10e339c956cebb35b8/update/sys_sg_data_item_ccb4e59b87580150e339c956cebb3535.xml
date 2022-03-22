@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>All Matters Data Item</name>
+        <query_condition/>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 15:38:57</sys_created_on>
+        <sys_id>ccb4e59b87580150e339c956cebb3535</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All Matters Data Item</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_sg_data_item_ccb4e59b87580150e339c956cebb3535</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 15:38:57</sys_updated_on>
+        <table>x_snc_matter_man_0_matter</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="delete_multiple" query="documentkey=ccb4e59b87580150e339c956cebb3535"/>
+</record_update>

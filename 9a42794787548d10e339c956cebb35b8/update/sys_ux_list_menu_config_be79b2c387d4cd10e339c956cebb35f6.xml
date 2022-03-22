@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_list_menu_config">
+    <sys_ux_list_menu_config action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description/>
+        <name>Matter Management Workspace_menu_config</name>
+        <sys_class_name>sys_ux_list_menu_config</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:10:55</sys_created_on>
+        <sys_id>be79b2c387d4cd10e339c956cebb35f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Matter Management Workspace_menu_config</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_ux_list_menu_config_be79b2c387d4cd10e339c956cebb35f6</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:10:55</sys_updated_on>
+    </sys_ux_list_menu_config>
+</record_update>

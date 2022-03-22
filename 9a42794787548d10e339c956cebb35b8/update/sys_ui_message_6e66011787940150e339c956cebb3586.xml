@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>practice area</key>
+        <language>en</language>
+        <message>Practice Area</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 13:26:40</sys_created_on>
+        <sys_id>6e66011787940150e339c956cebb3586</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>practice area</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_ui_message_6e66011787940150e339c956cebb3586</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 13:26:40</sys_updated_on>
+    </sys_ui_message>
+</record_update>

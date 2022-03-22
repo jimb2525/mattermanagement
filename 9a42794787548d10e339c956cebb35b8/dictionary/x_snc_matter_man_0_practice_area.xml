@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Practice Area" max_length="40" name="x_snc_matter_man_0_practice_area" sizeclass="8" type="collection">
+        <element label="Description" max_length="1000" name="description" type="string"/>
+        <element label="Name" max_length="100" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Practice Area Lead" max_length="32" name="practice_area_lead" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="practice_area_lead"/>
+        </index>
+    </element>
+</database>

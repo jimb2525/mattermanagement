@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Category" max_length="40" name="x_snc_matter_man_0_category" sizeclass="42" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="100" name="name" type="string"/>
+        <element label="Practice area" mandatory="true" max_length="32" name="practice_area" reference="x_snc_matter_man_0_practice_area" type="reference"/>
+        <index name="index">
+            <element name="practice_area"/>
+        </index>
+    </element>
+</database>

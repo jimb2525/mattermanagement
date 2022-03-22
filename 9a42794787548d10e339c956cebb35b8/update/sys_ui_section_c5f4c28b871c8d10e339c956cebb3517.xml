@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Matter Information" section_id="c5f4c28b871c8d10e339c956cebb3517" sys_domain="global" table="x_snc_matter_man_0_matter" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>practice_area</element>
+            <position>0</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>799cfa0b87d4cd10e339c956cebb35a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>category</element>
+            <position>1</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>fd9cfa0b87d4cd10e339c956cebb35a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>759cfa0b87d4cd10e339c956cebb35a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>proforma_reviewer</element>
+            <position>3</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>f99cfa0b87d4cd10e339c956cebb35a7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>billing_email_address</element>
+            <position>4</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>719cfa0b87d4cd10e339c956cebb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>f59cfa0b87d4cd10e339c956cebb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>6</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>7d9cfa0b87d4cd10e339c956cebb35a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>watch_list</element>
+            <position>7</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>f19cfa0b87d4cd10e339c956cebb35a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>8</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>799cfa0b87d4cd10e339c956cebb35a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>work_notes_list</element>
+            <position>9</position>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-13 03:24:31</sys_created_on>
+            <sys_id>fd9cfa0b87d4cd10e339c956cebb35a9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Matter Information" display_value="Matter Information" name="x_snc_matter_man_0_matter" sys_domain="global" view="Default view">c5f4c28b871c8d10e339c956cebb3517</sys_ui_section>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-13 03:24:31</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Matter Information</caption>
+            <header>false</header>
+            <name>x_snc_matter_man_0_matter</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-12 23:21:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c5f4c28b871c8d10e339c956cebb3517</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_snc_matter_man_0_matter</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+            <sys_update_name>sys_ui_section_c5f4c28b871c8d10e339c956cebb3517</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-12 23:21:26</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

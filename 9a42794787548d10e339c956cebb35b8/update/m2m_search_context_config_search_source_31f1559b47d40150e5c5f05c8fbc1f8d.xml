@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>200</order>
+        <search_context_config display_value="Event Request - Event Registration  Workspace">f5f1159b05d40150a8730523ab18b3f5</search_context_config>
+        <source display_value="Event Registration Locations">71f1559b4dd40150b2e9b12a65926f87</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-01-14 21:53:23</sys_created_on>
+        <sys_id>31f1559b47d40150e5c5f05c8fbc1f8d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_31f1559b47d40150e5c5f05c8fbc1f8d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-01-14 21:53:23</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

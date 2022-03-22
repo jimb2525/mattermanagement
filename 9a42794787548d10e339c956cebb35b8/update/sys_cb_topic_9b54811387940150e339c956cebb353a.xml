@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <description/>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{
+  "graph_api_version": "1.0.36",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "2857207a85304e48a7c8191d8022bf3d": {
+          "id": "2857207a85304e48a7c8191d8022bf3d",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "512ef0aefa6d4ad2afff3fcb339447ee": {
+          "id": "512ef0aefa6d4ad2afff3fcb339447ee",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "b5397bcbac8346109470e8789c9141a1": {
+          "stepType": "ChoicePrompt",
+          "name": "Matter Choice",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Which area of the Matter would you like to update?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "414fee896f474f8681ec3556dd8a80c4",
+          "id": "b5397bcbac8346109470e8789c9141a1",
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "8252325c3fb04a6cbbacd52c76d57ac9": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Get Matter",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Which Matter would you like to update?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "31c8bf4bc9454e5a9a7c917c882f79d6",
+          "id": "8252325c3fb04a6cbbacd52c76d57ac9",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "No matter found"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "active=true"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "03fc4e1141ef45bb88c459d1273104f2": {
+          "id": "03fc4e1141ef45bb88c459d1273104f2",
+          "stepType": "RecordOutput",
+          "name": "Show Matter",
+          "variableId": "31c8bf4bc9454e5a9a7c917c882f79d6",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_snc_matter_man_0_matter",
+          "fields": [
+            "number",
+            "short_description",
+            "submitting_attorney",
+            "jurisdiction"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "870fbb5500dc4cecb1587291289fed54": {
+          "stepType": "ReferenceChoicePrompt",
+          "name": "Get Jurisdiction",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Which Jurisdiction do you want to update it to?"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "85d6f345e7c44c3da564da829b59a39d",
+          "id": "870fbb5500dc4cecb1587291289fed54",
+          "mode": "glide_record",
+          "script": "",
+          "metadataScript": "",
+          "cardData": {},
+          "noRecordsResponseMsg": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Did not find results"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": "nameISNOTEMPTY"
+          },
+          "hasCardHeader": false,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false
+        },
+        "8df17125848945da8d213e4e35ae255f": {
+          "id": "8df17125848945da8d213e4e35ae255f",
+          "stepType": "CrudAction",
+          "name": "Update Matter",
+          "template": "jurisdiction={{vaInputs.get_jurisdiction}}",
+          "mode": "update",
+          "record": "31c8bf4bc9454e5a9a7c917c882f79d6",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "21b3845f54c64914bdd5027a1f883f8c"
+        },
+        "7cb66d93e0f2410bbdd779c004545a7b": {
+          "id": "7cb66d93e0f2410bbdd779c004545a7b",
+          "stepType": "RecordOutput",
+          "name": "Show Updated Matter",
+          "variableId": "31c8bf4bc9454e5a9a7c917c882f79d6",
+          "cardTemplate": "General",
+          "cardFields": {},
+          "mode": "variable",
+          "tableName": "x_snc_matter_man_0_matter",
+          "fields": [
+            "number",
+            "short_description",
+            "submitting_attorney",
+            "jurisdiction"
+          ],
+          "cardDefinition": {
+            "name": "Record",
+            "value": "General"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "glide_query",
+            "value": ""
+          }
+        },
+        "777fda6d84de4a499e0b4ef857464ec0": {
+          "id": "777fda6d84de4a499e0b4ef857464ec0",
+          "stepType": "TextOutput",
+          "name": "User Message",
+          "secure": false,
+          "value": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Your Matter has been updated."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "918261db45e347f28f2315d035ba26ca",
+          "edgeType": "Edge",
+          "source": "2857207a85304e48a7c8191d8022bf3d",
+          "target": "8252325c3fb04a6cbbacd52c76d57ac9",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ce66981b6e2a4d498d4b6a8496d1915d",
+          "edgeType": "Edge",
+          "source": "8252325c3fb04a6cbbacd52c76d57ac9",
+          "target": "03fc4e1141ef45bb88c459d1273104f2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "821a7eb34bd941ca83634fe26e56b354",
+          "edgeType": "Edge",
+          "source": "03fc4e1141ef45bb88c459d1273104f2",
+          "target": "b5397bcbac8346109470e8789c9141a1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e7fe18027ded4ccd95e5996976e2b3a0",
+          "edgeType": "Edge",
+          "source": "b5397bcbac8346109470e8789c9141a1",
+          "target": "870fbb5500dc4cecb1587291289fed54",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "c67bf664be5f4cd5b17cf410f4d32d6d",
+          "edgeType": "Edge",
+          "source": "870fbb5500dc4cecb1587291289fed54",
+          "target": "8df17125848945da8d213e4e35ae255f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e88b9565dce84a479472804295b646d1",
+          "edgeType": "Edge",
+          "source": "7cb66d93e0f2410bbdd779c004545a7b",
+          "target": "512ef0aefa6d4ad2afff3fcb339447ee",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1f5db4cae82747d581e73982d83a978d",
+          "edgeType": "Edge",
+          "source": "8df17125848945da8d213e4e35ae255f",
+          "target": "777fda6d84de4a499e0b4ef857464ec0",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ee1dfc55cd6f420195f800b47b76694d",
+          "edgeType": "Edge",
+          "source": "777fda6d84de4a499e0b4ef857464ec0",
+          "target": "7cb66d93e0f2410bbdd779c004545a7b",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "414fee896f474f8681ec3556dd8a80c4": {
+      "id": "414fee896f474f8681ec3556dd8a80c4",
+      "name": "matter_choice",
+      "label": "Matter Choice",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "Jurisdiction",
+          "value": "jurisdiction"
+        },
+        {
+          "label": "Practice Area",
+          "value": "practice_area",
+          "checked": true
+        },
+        {
+          "label": "Billing Email Address",
+          "value": "billing_email_address",
+          "checked": true
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "31c8bf4bc9454e5a9a7c917c882f79d6": {
+      "id": "31c8bf4bc9454e5a9a7c917c882f79d6",
+      "name": "get_matter",
+      "label": "Get Matter",
+      "varType": "reference",
+      "table": "x_snc_matter_man_0_matter",
+      "category": "vaInputs"
+    },
+    "85d6f345e7c44c3da564da829b59a39d": {
+      "id": "85d6f345e7c44c3da564da829b59a39d",
+      "name": "get_jurisdiction",
+      "label": "Get Jurisdiction",
+      "varType": "reference",
+      "table": "x_snc_matter_man_0_jurisdiction",
+      "category": "vaInputs"
+    },
+    "21b3845f54c64914bdd5027a1f883f8c": {
+      "id": "21b3845f54c64914bdd5027a1f883f8c",
+      "name": "update_matter",
+      "label": "Update Matter",
+      "varType": "reference",
+      "table": "",
+      "inactive": true,
+      "category": "vaInputs"
+    }
+  }
+}</graph>
+        <key_phrases>Update Matter</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Update Matter</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 13:17:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>9b54811387940150e339c956cebb353a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Update Matter</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_cb_topic_9b54811387940150e339c956cebb353a</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 13:26:36</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=9b54811387940150e339c956cebb353a"/>
+</record_update>

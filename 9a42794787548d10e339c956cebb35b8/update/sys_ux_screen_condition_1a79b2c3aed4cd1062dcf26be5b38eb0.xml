@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_condition">
+    <sys_ux_screen_condition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <screen display_value="Agent Assist">1679b2c304d4cd1014f8106cdef1edb0</screen>
+        <screen_condition/>
+        <script><![CDATA[(function canShowAA(params) {
+    return new x_snc_matter_man_0.workspaceStarterExpUtils().checkContextualConfig(params.table);
+})(inputProperties);]]></script>
+        <scripted_condition>true</scripted_condition>
+        <sys_class_name>sys_ux_screen_condition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:10:54</sys_created_on>
+        <sys_id>1a79b2c3aed4cd1062dcf26be5b38eb0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_ux_screen_condition_1a79b2c3aed4cd1062dcf26be5b38eb0</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:10:54</sys_updated_on>
+    </sys_ux_screen_condition>
+</record_update>

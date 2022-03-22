@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="Matter" max_length="40" name="x_snc_matter_man_0_matter" sizeclass="8" type="collection">
+        <element label="Address" max_length="100" name="address" type="string"/>
+        <element label="Billing Email Address" max_length="40" name="billing_email_address" type="string"/>
+        <element attributes="encode_utf8=false" dependent="practice_area" dependent_on_field="practice_area" label="Category" max_length="32" name="category" reference="x_snc_matter_man_0_category" reference_qual="javascript:&quot;practice_area=&quot; + current.practice_area" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element label="Client" max_length="32" name="client" reference="x_snc_matter_man_0_client" type="reference"/>
+        <element label="Fast Track?" max_length="40" name="fast_track" type="boolean"/>
+        <element label="Jurisdiction" max_length="32" name="jurisdiction" reference="x_snc_matter_man_0_jurisdiction" type="reference"/>
+        <element choice="3" label="Material Information?" max_length="40" name="material_information" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="No" sequence="10" value="no"/>
+                <element inactive_on_update="false" label="Yes - The Client" sequence="20" value="yes_the_client"/>
+                <element inactive_on_update="false" label="Yes - Another Company" sequence="30" value="yes_another_company"/>
+            </choice>
+        </element>
+        <element label="Practice Area" max_length="32" name="practice_area" reference="x_snc_matter_man_0_practice_area" type="reference"/>
+        <element label="Proforma Reviewer" max_length="32" name="proforma_reviewer" reference="sys_user" type="reference"/>
+        <element label="Submitting Attorney" max_length="32" name="submitting_attorney" reference="sys_user" type="reference"/>
+    </element>
+</database>

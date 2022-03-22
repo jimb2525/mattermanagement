@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_pd_activity_definition">
+    <sys_pd_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <activity_type display_value="Record">e12af577871333003058d1a936cb0ba4</activity_type>
+        <badge/>
+        <category/>
+        <description/>
+        <input_display_preferences/>
+        <inputs/>
+        <label>Update Elite</label>
+        <name>update_elite</name>
+        <source>9b0e8d1387d40150e339c956cebb359e</source>
+        <source_type>sys_hub_flow</source_type>
+        <sys_class_name>sys_pd_activity_definition</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 14:03:34</sys_created_on>
+        <sys_id>86ae8d9387d40150e339c956cebb35bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Elite</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_pd_activity_definition_86ae8d9387d40150e339c956cebb35bc</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 14:03:34</sys_updated_on>
+        <system_level>false</system_level>
+        <table>x_snc_matter_man_0_matter</table>
+        <type_vals/>
+        <wait_for_completion>true</wait_for_completion>
+    </sys_pd_activity_definition>
+    <sys_variable_value action="delete_multiple" query="document_key=86ae8d9387d40150e339c956cebb35bc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_input_9b0e8d1387d40150e339c956cebb359e^id=86ae8d9387d40150e339c956cebb35bc"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_pd_activity_type_prop_e12af577871333003058d1a936cb0ba4^id=86ae8d9387d40150e339c956cebb35bc"/>
+</record_update>

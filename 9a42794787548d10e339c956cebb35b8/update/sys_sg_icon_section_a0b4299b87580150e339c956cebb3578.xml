@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon_section">
+    <sys_sg_icon_section action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applets>14b4e59b87580150e339c956cebb35bf</applets>
+        <data_item/>
+        <display_feed_count>true</display_feed_count>
+        <hide_header>false</hide_header>
+        <hide_section_if_empty>false</hide_section_if_empty>
+        <is_hidden_preference_name/>
+        <orientation>vertical</orientation>
+        <required_roles/>
+        <sys_class_name>sys_sg_icon_section</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 15:38:58</sys_created_on>
+        <sys_id>a0b4299b87580150e339c956cebb3578</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Matter</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_sg_icon_section_a0b4299b87580150e339c956cebb3578</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 15:38:58</sys_updated_on>
+        <table/>
+        <title>Matter</title>
+        <visible_condition/>
+    </sys_sg_icon_section>
+</record_update>

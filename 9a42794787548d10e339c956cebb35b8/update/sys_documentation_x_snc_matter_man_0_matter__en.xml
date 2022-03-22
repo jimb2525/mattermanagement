@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Matter" language="en" table="x_snc_matter_man_0_matter">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Matter</label>
+            <language>en</language>
+            <name>x_snc_matter_man_0_matter</name>
+            <plural>Matters</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-12 22:13:27</sys_created_on>
+            <sys_id>9565394b87948d10e339c956cebb353e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Matter</sys_name>
+            <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+            <sys_update_name>sys_documentation_x_snc_matter_man_0_matter__en</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-12 22:13:27</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

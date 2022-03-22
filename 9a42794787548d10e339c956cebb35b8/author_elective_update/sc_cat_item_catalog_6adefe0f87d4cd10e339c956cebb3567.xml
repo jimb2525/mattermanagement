@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create New Matter">43ad3e8b87d4cd10e339c956cebb351e</sc_cat_item>
+        <sc_catalog display_value="Firm Operations">a20eb6cb87d4cd10e339c956cebb353d</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:34:23</sys_created_on>
+        <sys_id>6adefe0f87d4cd10e339c956cebb3567</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Firm Operations.Create New Matter</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_6adefe0f87d4cd10e339c956cebb3567</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:34:23</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Matter Management">9a42794787548d10e339c956cebb35b8</application>
+        <file_path/>
+        <instance_id>4c90a1171bc7a018c8432f8dee4bcbd3</instance_id>
+        <instance_name>appenginelegalassistantdemo</instance_name>
+        <name>sc_cat_item_catalog_6adefe0f87d4cd10e339c956cebb3567</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create New Matter">43ad3e8b87d4cd10e339c956cebb351e</sc_cat_item><sc_catalog display_value="Firm Operations">a20eb6cb87d4cd10e339c956cebb353d</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-13 03:34:23</sys_created_on><sys_id>6adefe0f87d4cd10e339c956cebb3567</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Firm Operations.Create New Matter</sys_name><sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package><sys_policy/><sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope><sys_update_name>sc_cat_item_catalog_6adefe0f87d4cd10e339c956cebb3567</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-13 03:34:23</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>349320780</payload_hash>
+        <record_name>Firm Operations.Create New Matter</record_name>
+        <reverted_from/>
+        <source>5242794787548d10e339c956cebb35bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:34:23</sys_created_on>
+        <sys_id>a2defe0f87d4cd10e339c956cebb356e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17db1db0fd50000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:34:23</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>e6defe0fa3d4cd101e53c6e06dedb76d</update_guid>
+        <update_guid_history>e6defe0fa3d4cd101e53c6e06dedb76d:349320780</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Firm Operations.Create New Matter">f95f3e4f87d4cd10e339c956cebb357b</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:36:31</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>4fdabfa066f044da803a16bb4c4b0904</sys_id>
+        <sys_metadata>6adefe0f87d4cd10e339c956cebb3567</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Firm Operations.Create New Matter</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_parent display_value="Create New Matter">43ad3e8b87d4cd10e339c956cebb351e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">438a7d3ccecb40cc98ec4b940664ce90</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_6adefe0f87d4cd10e339c956cebb3567</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_6adefe0f87d4cd10e339c956cebb3567">a2defe0f87d4cd10e339c956cebb356e</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:36:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

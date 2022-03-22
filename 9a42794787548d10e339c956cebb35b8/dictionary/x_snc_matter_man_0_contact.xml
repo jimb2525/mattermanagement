@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Contact" max_length="40" name="x_snc_matter_man_0_contact" sizeclass="1" type="collection">
+        <element label="Client" max_length="32" name="client" reference="x_snc_matter_man_0_client" type="reference"/>
+        <element label="Email Address" max_length="40" name="email_address" type="string"/>
+        <element label="First Name" max_length="100" name="first_name" type="string"/>
+        <element choice="1" label="Gender" max_length="40" name="gender" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Male" sequence="10" value="male"/>
+                <element inactive_on_update="false" label="Female" sequence="20" value="female"/>
+            </choice>
+        </element>
+        <element label="Last Name" max_length="100" name="last_name" type="string"/>
+        <element label="Mobile Phone" max_length="40" name="mobile_phone" type="phone_number_e164"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Title" max_length="40" name="title" type="string"/>
+        <element label="Work Phone" max_length="40" name="work_phone" type="phone_number_e164"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

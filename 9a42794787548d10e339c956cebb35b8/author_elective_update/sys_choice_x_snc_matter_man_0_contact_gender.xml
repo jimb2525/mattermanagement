@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="gender" table="x_snc_matter_man_0_contact" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>gender</element>
+            <name>x_snc_matter_man_0_contact</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-12 22:59:58</sys_created_on>
+            <sys_id>b2000e4787588d10e339c956cebb3565</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>gender</sys_name>
+            <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+            <sys_update_name>sys_choice_x_snc_matter_man_0_contact_gender</sys_update_name>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-12 22:59:58</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Male</label>
+            <language>en</language>
+            <name>x_snc_matter_man_0_contact</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-12 22:59:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b2000e4787588d10e339c956cebb3564</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-12 22:59:58</sys_updated_on>
+            <value>male</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>gender</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Female</label>
+            <language>en</language>
+            <name>x_snc_matter_man_0_contact</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>james.belote</sys_created_by>
+            <sys_created_on>2021-12-12 22:59:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7a000e4787588d10e339c956cebb35a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>james.belote</sys_updated_by>
+            <sys_updated_on>2021-12-12 22:59:59</sys_updated_on>
+            <value>female</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

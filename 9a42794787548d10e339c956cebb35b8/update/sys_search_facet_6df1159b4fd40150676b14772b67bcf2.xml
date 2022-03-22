@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_facet">
+    <sys_search_facet action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <ais_facet_name>x_snc_event_requ_0_event.capacity_status</ais_facet_name>
+        <label>Capacity</label>
+        <name>Full</name>
+        <option_limit>10</option_limit>
+        <order>300</order>
+        <search_context_config display_value="Event Request - Event Registration Search App">b9f1159b10d40150ef2de81c281131f5</search_context_config>
+        <sys_class_name>sys_search_facet</sys_class_name>
+        <sys_created_by>maint</sys_created_by>
+        <sys_created_on>2021-01-15 18:49:58</sys_created_on>
+        <sys_id>6df1159b4fd40150676b14772b67bcf2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_snc_event_requ_0_event.capacity_status</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_search_facet_6df1159b4fd40150676b14772b67bcf2</sys_update_name>
+        <sys_updated_by>jared.prim</sys_updated_by>
+        <sys_updated_on>2021-01-19 18:39:04</sys_updated_on>
+    </sys_search_facet>
+</record_update>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category">
+    <sc_category action="DELETE">
+        <active>true</active>
+        <description/>
+        <entitlement_script/>
+        <header_icon/>
+        <homepage_image/>
+        <homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer>
+        <icon/>
+        <image/>
+        <location/>
+        <mobile_hide_description>false</mobile_hide_description>
+        <mobile_picture/>
+        <mobile_subcategory_render_type>list</mobile_subcategory_render_type>
+        <module/>
+        <order>0</order>
+        <parent/>
+        <roles/>
+        <sc_catalog display_value="Firm Operations">a20eb6cb87d4cd10e339c956cebb353d</sc_catalog>
+        <sys_class_name>sc_category</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:32:54</sys_created_on>
+        <sys_id>237eb6cb87d4cd10e339c956cebb3549</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consulting</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sc_category_237eb6cb87d4cd10e339c956cebb3549</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:32:54</sys_updated_on>
+        <title>Consulting</title>
+    </sc_category>
+    <sys_translated_text action="DELETE" query="documentkey=237eb6cb87d4cd10e339c956cebb3549"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Matter Management">9a42794787548d10e339c956cebb35b8</application>
+        <file_path/>
+        <instance_id>4c90a1171bc7a018c8432f8dee4bcbd3</instance_id>
+        <instance_name>appenginelegalassistantdemo</instance_name>
+        <name>sc_category_237eb6cb87d4cd10e339c956cebb3549</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_category"><sc_category action="INSERT_OR_UPDATE"><active>true</active><description/><entitlement_script/><header_icon/><homepage_image/><homepage_renderer display_value="Category Items">47ebe8aa3742300054b6a3549dbe5dfa</homepage_renderer><icon/><image/><location/><mobile_hide_description>false</mobile_hide_description><mobile_picture/><mobile_subcategory_render_type>list</mobile_subcategory_render_type><module/><order>0</order><parent/><roles/><sc_catalog display_value="Firm Operations">a20eb6cb87d4cd10e339c956cebb353d</sc_catalog><sys_class_name>sc_category</sys_class_name><sys_created_by>james.belote</sys_created_by><sys_created_on>2021-12-13 03:32:54</sys_created_on><sys_id>237eb6cb87d4cd10e339c956cebb3549</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Consulting</sys_name><sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package><sys_policy/><sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope><sys_update_name>sc_category_237eb6cb87d4cd10e339c956cebb3549</sys_update_name><sys_updated_by>james.belote</sys_updated_by><sys_updated_on>2021-12-13 03:32:54</sys_updated_on><title>Consulting</title></sc_category><sys_translated_text action="delete_multiple" query="documentkey=237eb6cb87d4cd10e339c956cebb3549"/></record_update>]]></payload>
+        <payload_hash>2115177886</payload_hash>
+        <record_name>Consulting</record_name>
+        <reverted_from/>
+        <source>5242794787548d10e339c956cebb35bc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 03:32:54</sys_created_on>
+        <sys_id>748e360f87d4cd10e339c956cebb3563</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17db1d9b63a0000001</sys_recorded_at>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 03:32:54</sys_updated_on>
+        <type>Category</type>
+        <update_guid>7c8e360ffcd4cd10da984206c09fcf62</update_guid>
+        <update_guid_history>7c8e360ffcd4cd10da984206c09fcf62:2115177886</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Consulting">c602529f879c0150e339c956cebb35b7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 18:57:03</sys_created_on>
+        <sys_db_object display_value="" name="sc_category">sc_category</sys_db_object>
+        <sys_id>175a3a4fee9b41208f17df4af285f244</sys_id>
+        <sys_metadata>237eb6cb87d4cd10e339c956cebb3549</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consulting</sys_name>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_scope_delete display_value="">438a7d3ccecb40cc98ec4b940664ce90</sys_scope_delete>
+        <sys_update_name>sc_category_237eb6cb87d4cd10e339c956cebb3549</sys_update_name>
+        <sys_update_version display_value="sc_category_237eb6cb87d4cd10e339c956cebb3549">748e360f87d4cd10e339c956cebb3563</sys_update_version>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 18:57:03</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

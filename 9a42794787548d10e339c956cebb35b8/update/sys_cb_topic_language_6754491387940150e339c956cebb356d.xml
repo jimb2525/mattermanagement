@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic_language">
+    <sys_cb_topic_language action="INSERT_OR_UPDATE">
+        <cb_topic_id display_value="Update Matter">9b54811387940150e339c956cebb353a</cb_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[{"node_id":"b5397bcbac8346109470e8789c9141a1","variable_name":"matter_choice","nlu_entity":"","nlu_entity_label":""},{"node_id":"8252325c3fb04a6cbbacd52c76d57ac9","variable_name":"get_matter","nlu_entity":"","nlu_entity_label":""},{"node_id":"870fbb5500dc4cecb1587291289fed54","variable_name":"get_jurisdiction","nlu_entity":"","nlu_entity_label":""}]</nlu_entities>
+        <nlu_intent>Update Matter</nlu_intent>
+        <nlu_intent_label>Update Matter</nlu_intent_label>
+        <nlu_model>ml_x_snc_x_snc_matter_man_0_global_8d534d5f87540150e339c956cebb354f</nlu_model>
+        <nlu_model_label>Matter Management Model</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cb_topic_language</sys_class_name>
+        <sys_created_by>james.belote</sys_created_by>
+        <sys_created_on>2021-12-13 13:17:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>6754491387940150e339c956cebb356d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Matter Management" source="x_snc_matter_man_0">9a42794787548d10e339c956cebb35b8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Matter Management">9a42794787548d10e339c956cebb35b8</sys_scope>
+        <sys_update_name>sys_cb_topic_language_6754491387940150e339c956cebb356d</sys_update_name>
+        <sys_updated_by>james.belote</sys_updated_by>
+        <sys_updated_on>2021-12-13 13:25:54</sys_updated_on>
+    </sys_cb_topic_language>
+</record_update>
